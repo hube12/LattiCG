@@ -300,9 +300,6 @@ public class LLL {
                 incGramSchmidt();
             }
             testCondition();
-
-            System.out.println("GSO");
-            System.out.println(gramSchmidtBasis.toPrettyString(true));
         }
 
         int p = 0;

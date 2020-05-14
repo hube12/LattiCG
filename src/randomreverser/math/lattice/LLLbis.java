@@ -115,8 +115,6 @@ public class LLLbis {
             }
             basis.shiftRows(stage, kl);
             //Update the GSO accordingly the new basis
-            System.out.println("GSO");
-            System.out.println(baseGSO.toPrettyString(true));
             computeGSO();
             stage++;
         }
